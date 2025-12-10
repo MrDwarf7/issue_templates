@@ -35,7 +35,7 @@ body:
         - Linux
         - macOS
         - Other (mention in description)
-  - type: textarea
+  - type: input
     id: "distro"
     validations:
       required: false
