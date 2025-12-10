@@ -12,7 +12,7 @@ body:
     attributes:
       label: "Bob Version"
       description: "Run `bob --version` and paste the output here."
-      placeholder: "ex: bob 1.0.0"
+      placeholder: "ex: bob 4.1.0"
   - type: "input"
     id: "rust_version"
     validations:
@@ -73,7 +73,7 @@ body:
     attributes:
       label: "Describe the Bug"
       description: "A clear and concise description of what the bug is."
-      placeholder: "Tell us what happened."
+      placeholder: "ex: When I do [...], I expect [...] but instead [...]."
   - type: textarea
     id: "expected_behavior"
     validations:
@@ -81,9 +81,7 @@ body:
     attributes:
       label: "Expected Behavior"
       description: "A clear and concise description of what you expected to happen."
-      placeholder: |
-        The expected behavior was...
-      value: "I expected `bob` to "
+      placeholder: "ex: The expected behavior was [...]"
   - type: textarea
     id: "actual_behavior"
     validations:
@@ -91,9 +89,7 @@ body:
     attributes:
       label: "Actual Behavior"
       description: "A clear and concise description of what happened instead."
-      placeholder: |
-        The actual behavior was...
-      value: "The actual behavior was "
+      placeholder: "ex: The actual behavior was [...]"
   - type: textarea
     id: "steps"
     validations:
@@ -103,8 +99,8 @@ body:
       description: "Steps to reproduce the behavior."
       placeholder: |
         1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
+        2. Run the command '....'
+        3. Wait for '....'
         4. See error
       value: "1. \n2. \n3. \n4. \n"
   - type: textarea
