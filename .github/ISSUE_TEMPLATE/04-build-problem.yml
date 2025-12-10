@@ -91,7 +91,7 @@ body:
       placeholder: |
         ex: When using nightly: [ ... ]
         ex: When using stable 0.11.0: [ ... ]
-      value: "When using nightly: \nWhen using stable 0.11.0:\n"
+      value: "When using nightly:\n\nWhen using stable 0.11.0:\n"
   - type: textarea
     id: "logs"
     validations:
@@ -110,7 +110,7 @@ body:
         </details>
         ```
       placeholder: "Paste logs or errors here, using the collapsible format if lengthy."
-      value: "N/A"
+      value: "The error that occurred was:\n```\n\n```"
   - type: textarea
     id: "build_output"
     validations:
@@ -121,4 +121,4 @@ body:
         If applicable, paste the build output here.
         For long outputs, use a collapsible section as above.
       placeholder: "Paste build output here."
-      value: "N/A"
+      value: "The build output showed as:\n```\n\n```"

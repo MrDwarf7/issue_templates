@@ -39,7 +39,7 @@ body:
       placeholder: |
         ex. I thought about using [...] but [...]
       value: |
-        I had intially thought about using "
+        I had intially considered
   - type: textarea
     id: "context"
     validations:
@@ -49,3 +49,4 @@ body:
       description: "Add any other context or screenshots about the feature request here."
       placeholder: |
         ex. Links, images, or more details.
+      value: "N/A"

@@ -106,7 +106,7 @@ body:
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
-      value: "1. \n2. \n3. \n4.\n"
+      value: "1. \n2. \n3. \n4. \n"
   - type: textarea
     id: "logs"
     validations:
