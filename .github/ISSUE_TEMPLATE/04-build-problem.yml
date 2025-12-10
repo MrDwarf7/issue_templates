@@ -34,7 +34,7 @@ body:
         - macOS
         - Other (mention in description)
   - if: "{{inputs.os}} == 'Linux'"
-  - type: textarea
+    type: textarea
     id: "distro"
     validations:
       required: false
