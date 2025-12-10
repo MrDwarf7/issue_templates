@@ -99,6 +99,7 @@ body:
       description: |
         Please provide any relevant logs or error messages.
         For long logs, wrap them in a collapsible section using Markdown:
+        ```
         <details>
           <summary>
             Click to expand logs
