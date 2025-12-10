@@ -35,7 +35,8 @@ body:
         - Other (mention in description)
   - type: textarea
     id: "distro"
-    validations: false
+    validations:
+      required: false
     attributes:
       label: "Linux Distribution (if applicable)"
       description: "If you selected Linux above, please specify your distribution (e.g., Ubuntu 22.04, Fedora 38)."
