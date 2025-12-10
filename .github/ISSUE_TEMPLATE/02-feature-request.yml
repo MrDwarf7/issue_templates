@@ -1,7 +1,7 @@
 name: "Feature Request"
 description: "Suggest an idea for the project"
 title: "[FEAT]: "
-labels: ["feat"]
+labels: ["enhancement"]
 # labels: ["feat", "enhancement"]
 assignees: []
 body:
