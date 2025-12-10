@@ -69,6 +69,7 @@ body:
       description: "A clear and concise description of what you expected to happen."
       placeholder: |
         The expected behavior was...
+      value: "I expected `bob` to "
   - type: textarea
     id: "actual_behavior"
     validations:
@@ -78,6 +79,7 @@ body:
       description: "A clear and concise description of what happened instead."
       placeholder: |
         The actual behavior was...
+      value: "The actual behavior was "
   - type: textarea
     id: "steps"
     validations:
@@ -90,6 +92,7 @@ body:
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
+      value: "1. \n2. \n3. \n4.\n"
   - type: textarea
     id: "logs"
     validations:
@@ -108,6 +111,7 @@ body:
         </details>
         ```
       placeholder: "Paste logs or errors here, using the collapsible format if lengthy."
+      value: "```\n\n```"
   - type: textarea
     id: "config"
     validations:

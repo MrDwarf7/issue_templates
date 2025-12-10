@@ -12,6 +12,8 @@ body:
       label: "Describe the Build Problem"
       description: "A clear and concise description of the build issue you are encountering."
       placeholder: "Tell us what happened during the build process."
+      value: |
+        When trying to build the program, I encountered the following issue:
   # - type: textarea
   #   id: "os-arch-distro"
   #   validations:
@@ -41,6 +43,7 @@ body:
       label: "Linux Distribution (if applicable)"
       description: "If you selected Linux above, please specify your distribution (e.g., Ubuntu 22.04, Fedora 38)."
       placeholder: "ex: Ubuntu 22.04"
+      value: "N/A"
   - type: dropdown
     id: "arch"
     validations:
@@ -72,6 +75,7 @@ body:
       label: "Rust Version"
       description: "Run `rustc --version` and paste the output here."
       placeholder: "ex: rustc 1.75.0 (82e1608df 2023-12-21)"
+      value: "rustc "
   - type: textarea
     id: "diagnosis"
     validations:
@@ -85,6 +89,7 @@ body:
       placeholder: |
         ex: When using nightly: [ ... ]
         ex: When using stable 0.11.0: [ ... ]
+      value: "When using nightly: \nWhen using stable 0.11.0:\n"
   - type: textarea
     id: "logs"
     validations:
@@ -103,6 +108,7 @@ body:
         </details>
         ```
       placeholder: "Paste logs or errors here, using the collapsible format if lengthy."
+      value: "N/A"
   - type: textarea
     id: "build_output"
     validations:
@@ -113,3 +119,4 @@ body:
         If applicable, paste the build output here.
         For long outputs, use a collapsible section as above.
       placeholder: "Paste build output here."
+      value: "N/A"
