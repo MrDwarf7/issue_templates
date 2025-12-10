@@ -30,6 +30,7 @@ body:
       required: true
     attributes:
       label: "Operating System"
+      description: "Please select your operating system."
       options:
         - Windows
         - Linux
@@ -50,6 +51,7 @@ body:
       required: true
     attributes:
       label: "Architecture"
+      description: "Please select your system architecture."
       options:
         - x86_64
         - aarch64

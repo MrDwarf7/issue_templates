@@ -36,6 +36,7 @@ body:
       required: true
     attributes:
       label: "Operating System"
+      description: "Please select your operating system."
       options:
         - Windows
         - Linux
@@ -59,6 +60,7 @@ body:
       required: true
     attributes:
       label: "Architecture"
+      description: "Please select your system architecture."
       options:
         - x86_64
         - aarch64
@@ -123,13 +125,16 @@ body:
         </details>
         ```
       placeholder: "Paste logs or errors here, using the collapsible format if lengthy."
-      value: "```\n\n```"
+      value: "\n```\n\n```"
   - type: textarea
     id: "config"
     validations:
       required: false
     attributes:
       label: "Config File (if relevant)"
-      description: "If relevant, please paste the contents of your config file. The default location is `~/.config/bob/config.json`. If not relevant or unchanged, you can enter 'No custom config'."
-      placeholder: "Paste config here, or 'No custom config'"
+      description: |
+        If relevant, please paste the contents of your config file.
+        The default location is `~/.config/bob/config.json`.
+      placeholder: "Paste config here (if relevant)."
+      value: "{\n\t\n}"
       render: json
