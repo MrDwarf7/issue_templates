@@ -61,18 +61,6 @@ body:
       description: "A clear and concise description of what the bug is."
       placeholder: "Tell us what happened."
   - type: textarea
-    id: "steps"
-    validations:
-      required: true
-    attributes:
-      label: "Steps to Reproduce"
-      description: "Steps to reproduce the behavior."
-      placeholder: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
-  - type: textarea
     id: "expected_behavior"
     validations:
       required: true
@@ -90,6 +78,18 @@ body:
       description: "A clear and concise description of what happened instead."
       placeholder: |
         The actual behavior was...
+  - type: textarea
+    id: "steps"
+    validations:
+      required: true
+    attributes:
+      label: "Steps to Reproduce"
+      description: "Steps to reproduce the behavior."
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
   - type: textarea
     id: "logs"
     validations:
