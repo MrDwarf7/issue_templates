@@ -125,7 +125,7 @@ body:
         </details>
         ```
       placeholder: "Paste logs or errors here, using the collapsible format if lengthy."
-      value: "\n```\n\n```"
+      value: "The error that occurred was:\n\n```\n\n```"
   - type: textarea
     id: "config"
     validations:

@@ -110,7 +110,7 @@ body:
         </details>
         ```
       placeholder: "Paste logs or errors here, using the collapsible format if lengthy."
-      value: "The error that occurred was:\n```\n\n```"
+      value: "The error that occurred was:\n\n```\n\n```"
   - type: textarea
     id: "build_output"
     validations:
