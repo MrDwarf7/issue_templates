@@ -136,5 +136,5 @@ body:
         If relevant, please paste the contents of your config file.
         The default location is `~/.config/bob/config.json`.
       placeholder: "Paste config here (if relevant)."
-      value: "{\n\t\n}"
+      value: "{\n  \n}"
       render: json
