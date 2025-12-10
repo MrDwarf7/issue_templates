@@ -12,8 +12,7 @@ body:
       label: "Describe the Build Problem"
       description: "A clear and concise description of the build issue you are encountering."
       placeholder: "Tell us what happened during the build process."
-      value: |
-        When trying to build the program, I encountered the following issue:
+      value: "When trying to build the program, I encountered the following issue:\n"
   # - type: textarea
   #   id: "os-arch-distro"
   #   validations:
@@ -77,7 +76,7 @@ body:
       label: "Rust Version"
       description: "Run `rustc --version` and paste the output here."
       placeholder: "ex: rustc 1.75.0 (82e1608df 2023-12-21)"
-      value: "rustc "
+      value: "rustc --version _run_for_version_"
   - type: textarea
     id: "diagnosis"
     validations:
